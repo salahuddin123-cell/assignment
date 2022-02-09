@@ -1,5 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+text-decoration: none;
+}
+body{
+  background: dimgrey;
+
+}
 .App {
   text-align: center;
+  width: 30vw;
+  margin: auto;
+}
+.container{
+display: flex;
+  
+  }
+  .table{
+/* background-color: #61dafb; */
+margin: 10px;
+  }
+
+.elem #img{
+width: 350px;
+height: 300px;
+}
+.s{
+  cursor: pointer;
 }
 
 .App-logo {
